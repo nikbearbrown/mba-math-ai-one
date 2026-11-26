@@ -1,0 +1,16 @@
+{
+  "operating_days": 20,
+  "unit_revenue": 28,
+  "unit_expense": 16,
+  "scenarios": [
+    {"label": "low", "daily_requests": "4.5", "probability": "0.25"},
+    {"label": "middle", "daily_requests": "5.5", "probability": "0.50"},
+    {"label": "high", "daily_requests": "8.5", "probability": "0.25"}
+  ],
+  "plans": {
+    "A": {"capacity": 120, "fixed": 900},
+    "B": {"capacity": 160, "fixed": 990}
+  },
+  "low_profit_floor": 150,
+  "financing": {"principal": 990, "monthly_rate": "0.01", "months": 3}
+}
